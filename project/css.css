@@ -1,0 +1,29 @@
+h1{color: #E6E6FA;
+  background-color:#191970;
+  font-family:Times New Roman;
+  border:3px dashed red;
+}
+h2{
+  border: 3px dashed blue;
+}
+p{
+  color:red;
+}
+.classforContact{
+  color:#291970
+}
+tr
+{
+  background-color:white;
+  color:black;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+
+}
+body {background-color: #92a8d1;}
+<fieldset style="float: left; width: 280px; background-color:#999999;">

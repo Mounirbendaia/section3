@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <link rel="stylesheet" href="css.css">
+
+    <style>
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+td {
+  text-align: center;
+}
+caption {
+  padding: 10px;
+}
+}
+      input:invalid{
+        border:2px dashed red;
+      }
+      input:valid{
+        border:2px dashed black;
+      }
+      </style>
+    </head>
+
+<body>
+  <div>
+    <h1><center>     Online Market    </center></h1>
+    <table>
+
+      <tr>
+        <td rowspan="5">Product</td>
+        <th>Name</th>
+        <th>x1</th>
+        <th>x2</th>
+        <th>x3</th>
+        <th>x4</th>
+
+      </tr>
+      <tr>
+
+        <td>Price</td>
+        <td>3.00</td>
+        <td>5.00</td>
+        <td>7.00</td>
+        <td>9.00</td>
+
+      </tr>
+      <tr>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+      <tr>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+      </tr>
+
+    </table>
+    <br>
+
+  </div>
+  <form>
+    <fieldset style="float: left; width: 600px; background-color:#999999;">
+  <label> Name:</label>
+  <input maxlength="4" required>
+  <br></br>
+  <label>Email: <label>
+    <input type="email" id="email"name="email"required><br>
+  <br>  <label>Addres: <label>
+<textarea rows="5" cols="50" placeholder="enter ure adress"></textarea> <br>
+
+    <br>Quantity (between 1 and 5):
+     <input type="number" name="quantity" min="1" max="5"> <br>
+
+<br></br><br></br><br></br>
+
+
+<button type="submit" name="button">submit</button>
+<input type="reset" value="reset">
+</fieldset>
+</form>
+</body>
